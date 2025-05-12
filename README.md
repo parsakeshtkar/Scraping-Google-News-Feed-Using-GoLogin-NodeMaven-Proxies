@@ -10,6 +10,7 @@
    - [Setup and Installation Instructions](#setup-and-installation-instructions)
 5. [Troubleshooting Tips](#troubleshooting-tips)
 6. [Contribution Guidelines](#contribution-guidelines)
+7. [NodeMaven Proxy Offers](#exclusive-nodemaven-proxy-offers)
 
 
 ## Project Overview
