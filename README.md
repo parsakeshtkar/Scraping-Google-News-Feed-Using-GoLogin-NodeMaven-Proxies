@@ -1,1 +1,1 @@
-# Google-News-Feed-Scraping-with-GoLogin-NodeMaven-Proxies
+<h1 align="center">📰 Scraping Google News Feeds Using GoLogin & NodeMaven Proxies</h1>
