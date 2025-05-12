@@ -1,5 +1,30 @@
 <h1 align="center">📰 Scraping Google News Feed Using GoLogin & NodeMaven Proxies</h1>
 
+
+<div align="center">
+  <a href="mailto:support@appilot.app">
+    <img alt="Gmail" width="30px" src="https://edent.github.io/SuperTinyIcons/images/svg/gmail.svg" />
+    <code>support@appilot.app</code>
+  </a>
+  <span> ┃ </span>
+
+  <a href="https://t.me/devpilot1">
+    <img alt="Telegram" width="30px" src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg" />
+    <code>@devpilot1</code>
+  </a>
+  <span> ┃ </span>
+
+  <a href="https://discord.gg/J5paBYqgVx">
+    <img alt="Discord" width="30px" src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg" />
+    <code>devpilot</code>
+  </a>
+
+<br />
+  <strong>Reach out for scraping projects, automation, or data extraction consultancy! 👆</strong>
+</div>
+
+
+
 ## 📚 Table of Contents
 
 1. [Project Overview](#project-overview)
