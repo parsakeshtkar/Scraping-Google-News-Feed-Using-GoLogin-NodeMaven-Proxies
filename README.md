@@ -111,6 +111,6 @@ Boost your scraping power with trusted residential proxies:
 - ```BB50``` – Score a **50% discount** on any package (limited to 20 uses!)
 - ```BB80``` – Supercharge your data flows with **+80% traffic**
 
-🎯 [Use this referral link to claim your perks](https://nodemaven.com/?a_aid=Zeeshanahmad4)
+🎯 [Use this referral link to claim your perks](https://go.nodemaven.com/proxies22)
 
 
