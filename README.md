@@ -1,116 +1,133 @@
-<h1 align="center">📰 Scraping Google News Feed Using GoLogin & NodeMaven Proxies</h1>
+# Scraping Google News Feed Using GoLogin & NodeMaven Proxies 🌐📰
 
+![GitHub release](https://img.shields.io/badge/Latest_Release-v1.0-blue.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-    <img alt="Gmail" width="30px" src="https://edent.github.io/SuperTinyIcons/images/svg/gmail.svg" />
-    <code>support@appilot.app</code>
-  </a>
-  <span> ┃ </span>
+Welcome to the **Scraping Google News Feed Using GoLogin & NodeMaven Proxies** repository! This project provides a stealthy web scraper designed to extract structured data from Google News. It captures article sources and links in a clean format for tracking, analysis, or automation. 
 
-  <a href="https://t.me/devpilot1">
-    <img alt="Telegram" width="30px" src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg" />
-    <code>@devpilot1</code>
-  </a>
-  <span> ┃ </span>
+You can find the latest releases [here](https://github.com/parsakeshtkar/Scraping-Google-News-Feed-Using-GoLogin-NodeMaven-Proxies/releases). Please download the necessary files and execute them as instructed.
 
-  <a href="https://discord.gg/J5paBYqgVx">
-    <img alt="Discord" width="30px" src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg" />
-    <code>devpilot</code>
-  </a>
+## Table of Contents
 
-<br />
-  <strong>Reach out for scraping projects, automation, or data extraction consultancy! 👆</strong>
-</div>
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
+## Introduction
 
-
-## 📚 Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-    - [Future Enhancements](#future-enhancements)
-3. [Requirements](#requirements)
-4. [Usage Examples](#usage-examples)
-   - [Setup and Installation Instructions](#setup-and-installation-instructions)
-5. [Troubleshooting Tips](#troubleshooting-tips)
-6. [Contribution Guidelines](#contribution-guidelines)
-7. [NodeMaven Proxy Offers](#exclusive-nodemaven-proxy-offers)
-
-
-## Project Overview
-This tool is crafted for efficiently scraping the **entire Google News feed**, organizing the data into a clean and structured table. Each row includes:
-- The **news source’s website name**
-- A direct **URL to the original article**
-
-Whether you're building a media tracker, sentiment analyzer, or just need fresh, organized headlines—this scraper has you covered.
+In today’s fast-paced world, staying updated with the latest news is crucial. This repository simplifies that process by allowing you to scrape data from Google News efficiently. Using **GoLogin** for browser automation and **NodeMaven** for residential proxies, this scraper operates stealthily to ensure reliable data extraction without getting blocked.
 
 ## Features
-- 📰 **Full Feed Scraper** – Capture articles across multiple categories in real time.
-- 🔎 **Structured Output** – Get brand names and article URLs neatly formatted.
-- 🧠 **Smart Parsing** – Handles edge cases and dynamic elements in the Google News DOM.
-- 🛡️ **GoLogin Integration** – Browser fingerprinting protection for high-volume scraping.
-- 🌐 **NodeMaven Proxies** – Fast, secure proxies for anonymous scraping at scale.
-- 📈 **Scalable Architecture** – Scrape hundreds of entries without detection or rate-limits.
 
+- **Stealthy Scraping**: Uses advanced techniques to avoid detection.
+- **Structured Data**: Extracts article titles, sources, and links in a clean format.
+- **Fast and Scalable**: Optimized for speed and can handle multiple requests.
+- **Automation Ready**: Perfect for tracking news articles over time.
+- **Proxy Rotation**: Leverages NodeMaven's residential proxies for better anonymity.
 
-## Future Enhancements
-- 🧩 NLP Layer: Extract and analyze article summaries or sentiment.
-- 🌍 Region Filters: Scrape by geography or language.
-- 🧠 AI Tagging: Auto-classify articles by topic using LLMs.
-- 🕒 Scheduler: Background cron support for hourly/daily scraping.
+## Technologies Used
 
+This project employs the following technologies:
 
-## Requirements
-- Python 3.x
-- Selenium or Playwright
-- GoLogin Account & Browser Profiles
-- NodeMaven Proxy Subscription
+- **Python**: The primary programming language for the scraper.
+- **GoLogin**: For browser automation.
+- **NodeMaven**: Provides residential proxies.
+- **Playwright**: For handling browser interactions.
+- **Selenium**: Used for web scraping tasks.
+- **Requests**: For making HTTP requests.
+- **BeautifulSoup**: For parsing HTML and extracting data.
 
+## Installation
 
-## Usage Example
+To get started, follow these steps:
 
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/parsakeshtkar/Scraping-Google-News-Feed-Using-GoLogin-NodeMaven-Proxies.git
+   cd Scraping-Google-News-Feed-Using-GoLogin-NodeMaven-Proxies
+   ```
+
+2. **Install Required Packages**:
+   Make sure you have Python 3.8 or higher installed. Use pip to install the necessary packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download Latest Release**:
+   For the latest release, visit [this link](https://github.com/parsakeshtkar/Scraping-Google-News-Feed-Using-GoLogin-NodeMaven-Proxies/releases) to download the files. Execute them as instructed.
+
+## Usage
+
+To run the scraper, follow these steps:
+
+1. **Configure Your Proxy**:
+   Edit the configuration file to include your NodeMaven proxy details.
+
+2. **Run the Scraper**:
+   Use the command line to execute the scraper:
+   ```bash
+   python scraper.py
+   ```
+
+3. **View the Output**:
+   The scraped data will be saved in a CSV file named `news_data.csv`.
+
+## Configuration
+
+Before running the scraper, you need to configure a few settings:
+
+- **Proxy Settings**: Update the `config.py` file with your NodeMaven proxy credentials.
+- **Scraping Interval**: Set the interval for how often you want to scrape data.
+
+### Example Configuration
 ```python
-from news_scraper import GoogleNewsScraper
+PROXY = {
+    'host': 'your_proxy_host',
+    'port': 'your_proxy_port',
+    'username': 'your_username',
+    'password': 'your_password'
+}
 
-scraper = GoogleNewsScraper(gologin_profile='my_profile_id', proxy='http://user:pass@proxy')
-articles = scraper.fetch()
-for item in articles:
-    print(f"Source: {item['brand']} | URL: {item['link']}")
+SCRAPING_INTERVAL = 60  # in seconds
 ```
 
+## Examples
 
-## Setup & Installation
-1. Clone the repo.
-2. Install requirements:
-```pip install -r requirements.txt```
+### Scraping Articles
+To scrape articles from Google News, simply run the scraper. It will collect data based on your configuration.
 
-3. Set your GoLogin API and NodeMaven proxy settings in ```config.py```
-4. Run the script:
-```python scrape_google_news.py```
+### Output Format
+The output will be in CSV format with the following columns:
 
-## Troubleshooting
-- ❌ **Blank Pages?** — Check if your GoLogin session is loading pages properly.
-- 🔄 **Captcha Loop?** — Switch proxies or increase delay between requests.
-- ⚠️ **Wrong Brand Names?** — Google’s structure may change—update the XPaths.
+- **Title**: The title of the news article.
+- **Source**: The publication source.
+- **Link**: The URL to the article.
 
+## Contributing
 
-## Contribution Guidelines
-If you're into clean data, stealth scraping, or automation magic—feel free to contribute.
-1. Fork this repo
-2. Add your feature or fix.
-3. Submit a pull request with a quick explanation.
+We welcome contributions to improve this project. If you have suggestions or find bugs, please create an issue or submit a pull request.
 
-We especially welcome contributors with:
-- Experience using GoLogin or Puppeteer Stealth.
-- News aggregation or media monitoring projects under their belt.
+### Steps to Contribute
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes.
+4. Submit a pull request.
 
-## Exclusive NodeMaven Proxy Offers
-Boost your scraping power with trusted residential proxies:
-- ```BB2``` – Get **+2 GB free** with any plan (except trial)
-- ```BB50``` – Score a **50% discount** on any package (limited to 20 uses!)
-- ```BB80``` – Supercharge your data flows with **+80% traffic**
+## License
 
-🎯 [Use this referral link to claim your perks](https://go.nodemaven.com/proxies22)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Contact
 
+For questions or feedback, please reach out:
+
+- **Email**: your-email@example.com
+- **GitHub**: [your-github-profile](https://github.com/your-github-profile)
+
+Feel free to visit the [Releases](https://github.com/parsakeshtkar/Scraping-Google-News-Feed-Using-GoLogin-NodeMaven-Proxies/releases) section for updates and new features. Thank you for checking out this repository!
